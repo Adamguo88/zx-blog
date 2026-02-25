@@ -2,6 +2,7 @@
   "name": "zx-blog",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://adamguo88.github.io/zx-blog/",
   "dependencies": {
     "@ant-design/icons": "^6.1.0",
     "@testing-library/dom": "^10.4.1",

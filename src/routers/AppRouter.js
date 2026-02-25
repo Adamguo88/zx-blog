@@ -22,11 +22,12 @@ const router = createBrowserRouter(
       element: <Home />,
       children: [
         { index: true, element: <About /> },
-        { path: "/components", element: <InitPage />, children: [{ index: true, element: <ContentPanel /> }] },
+        { path: "components", element: <InitPage />, children: [{ index: true, element: <ContentPanel /> }] },
       ],
     },
   ],
   {
+    basename: process.env.PUBLIC_URL, // 關鍵：讓 Router 知道它是在子目錄下執行
     future: {
       v7_fetcherPersist: true,
     },

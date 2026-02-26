@@ -38,7 +38,7 @@ export default function Home() {
           selectedKeys={[current]}
         />
       </Header>
-      <Content style={{ height: "100%", width: "100%" }}>
+      <Content style={{ height: "calc(100vh - 64px)", width: "100%" }}>
         <Outlet />
       </Content>
     </Layout>
